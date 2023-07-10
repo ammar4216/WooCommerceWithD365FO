@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\bin\Debug\WooCommerce_helper.dll
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\bin\Debug\simple-client-oauth1.dll
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\bin\Debug\netstandard.dll
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\bin\Debug\WooCommerce_helper.pdb
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CopyComplete
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\HP\source\repos\WooCommerce_helper\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
