@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WooCommerce_helper.Models;
+using System.Collections;
 
 namespace WooCommerce_helper.BusinessLogic
 {
@@ -15,9 +16,9 @@ namespace WooCommerce_helper.BusinessLogic
             return JsonConvert.SerializeObject(jsonObj);
         }
 
-        public Root WooCommerceGetOrders_RespDeserialize(string jsonString)
+        public List<Root> WooCommerceGetOrders_RespDeserialize(string jsonString)
         {
-            return JsonConvert.DeserializeObject<Root>(jsonString);
+            return JsonConvert.DeserializeObject<List<Root>>(jsonString);
         }
 
         public string BillingSerialize(Billing jsonObj)
@@ -35,9 +36,9 @@ namespace WooCommerce_helper.BusinessLogic
             return JsonConvert.SerializeObject(jsonObj);
         }
 
-        public Collection CollectionDeserialize(string jsonString)
+        public List<Collection> CollectionDeserialize(string jsonString)
         {
-            return JsonConvert.DeserializeObject<Collection>(jsonString);
+            return JsonConvert.DeserializeObject<List<Collection>>(jsonString);
         }
 
         public string CustomerSerialize(Customer jsonObj)
@@ -60,14 +61,14 @@ namespace WooCommerce_helper.BusinessLogic
             return JsonConvert.DeserializeObject<Image>(jsonString);
         }
 
-        public string LineItemSerialize(LineItem jsonObj)
+        public string LineItemSerialize(List<LineItem> jsonObj)
         {
             return JsonConvert.SerializeObject(jsonObj);
         }
 
-        public LineItem LineItemDeserialize(string jsonString)
+        public List<LineItem> LineItemDeserialize(string jsonString)
         {
-            return JsonConvert.DeserializeObject<LineItem>(jsonString);
+            return JsonConvert.DeserializeObject<List<LineItem>>(jsonString);
         }
 
         public string LinksSerialize(Links jsonObj)
@@ -85,9 +86,9 @@ namespace WooCommerce_helper.BusinessLogic
             return JsonConvert.SerializeObject(jsonObj);
         }
 
-        public MetaData MetaDataDeserialize(string jsonString)
+        public List<MetaData> MetaDataDeserialize(string jsonString)
         {
-            return JsonConvert.DeserializeObject<MetaData>(jsonString);
+            return JsonConvert.DeserializeObject<List<MetaData>>(jsonString);
         }
 
         public string SelfSerialize(Self jsonObj)
@@ -95,9 +96,9 @@ namespace WooCommerce_helper.BusinessLogic
             return JsonConvert.SerializeObject(jsonObj);
         }
 
-        public Self SelfDeserialize(string jsonString)
+        public List<Self> SelfDeserialize(string jsonString)
         {
-            return JsonConvert.DeserializeObject<Self>(jsonString);
+            return JsonConvert.DeserializeObject<List<Self>>(jsonString);
         }
 
         public string ShippingSerialize(Shipping jsonObj)
@@ -115,9 +116,9 @@ namespace WooCommerce_helper.BusinessLogic
             return JsonConvert.SerializeObject(jsonObj);
         }
 
-        public ShippingLine ShippingLineDeserialize(string jsonString)
+        public List<ShippingLine> ShippingLineDeserialize(string jsonString)
         {
-            return JsonConvert.DeserializeObject<ShippingLine>(jsonString);
+            return JsonConvert.DeserializeObject<List<ShippingLine>>(jsonString);
         }
 
         public string TaxisSerialize(Taxis jsonObj)
@@ -125,9 +126,9 @@ namespace WooCommerce_helper.BusinessLogic
             return JsonConvert.SerializeObject(jsonObj);
         }
 
-        public Taxis TaxisDeserialize(string jsonString)
+        public List<Taxis> TaxisDeserialize(string jsonString)
         {
-            return JsonConvert.DeserializeObject<Taxis>(jsonString);
+            return JsonConvert.DeserializeObject<List<Taxis>>(jsonString);
         }
 
         public string TaxLineSerialize(TaxLine jsonObj)
@@ -135,9 +136,9 @@ namespace WooCommerce_helper.BusinessLogic
             return JsonConvert.SerializeObject(jsonObj);
         }
 
-        public TaxLine TaxLineDeserialize(string jsonString)
+        public List<TaxLine> TaxLineDeserialize(string jsonString)
         {
-            return JsonConvert.DeserializeObject<TaxLine>(jsonString);
+            return JsonConvert.DeserializeObject<List<TaxLine>>(jsonString);
         }
     }
 }

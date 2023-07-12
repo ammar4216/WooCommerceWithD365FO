@@ -103,4 +103,3 @@ C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\obj\Debug\WooComm
 C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\obj\Debug\WooCommerce_helper.csproj.CopyComplete
 C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\obj\Debug\WooCommerce_helper.dll
 C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\obj\Debug\WooCommerce_helper.pdb
-C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\obj\Debug\WooCommerce_helper.csproj.AssemblyReference.cache
