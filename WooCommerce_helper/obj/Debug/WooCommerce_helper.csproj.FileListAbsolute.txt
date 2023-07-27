@@ -99,6 +99,7 @@ C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\bin\Debug\System.
 C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\bin\Debug\Newtonsoft.Json.dll
 C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\bin\Debug\simple-client-oauth1.dll
 C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\obj\Debug\WooCommerce_helper.csproj.AssemblyReference.cache
 C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\obj\Debug\WooCommerce_helper.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\obj\Debug\WooCommerce_helper.csproj.CopyComplete
 C:\Users\HP\source\repos\WooCommerce_helper\WooCommerce_helper\obj\Debug\WooCommerce_helper.dll

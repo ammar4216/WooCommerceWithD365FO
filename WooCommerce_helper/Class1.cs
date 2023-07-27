@@ -12,9 +12,25 @@ namespace WooCommerce_helper
     {
         private readonly GenerateValuesRequest aouth1;
 
+        public string consumer_key;
+        public string consumer_secret;
+
+        public string getConsumerKey(string key)
+        {
+            consumer_key = key;
+            return consumer_key;
+        }
+
+        public string getConsumerSecret(string key)
+        {
+            consumer_secret = key;
+            return consumer_secret;
+        }
+
+
         public ExampleConnectOauth()
         {
-            aouth1 = new GenerateValuesRequest("ck_707caa7a22d6e99ec26ef5c289fc5facb81dc83a", "cs_09f529496888dac95250e90d69bbb4109da95e48", "", "", SignatureTypes.HMAC_SHA1, true, "1.0");
+            aouth1 = new GenerateValuesRequest(consumer_key, consumer_secret, "", "", SignatureTypes.HMAC_SHA1, true, "1.0");
         }
         public Dictionary<string, string> GetValuesRequestOauth(string url, string method)
         {
